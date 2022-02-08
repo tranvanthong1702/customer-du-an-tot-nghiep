@@ -1,0 +1,163 @@
+/*---------------------
+  Footer
+-----------------------*/
+.footer {
+  padding: 70px 0;
+  background-color: #0a472e;
+  padding-bottom: 0;
+  color: #fff;
+  background-image: url(http://muatugoc.vn/theme/frontend/images/bg-footer.png);
+  ul{
+    li{
+      a{
+        color: #fff !important;
+      }
+      
+    }
+  }
+  p{
+    color: #fff;
+  }
+}
+
+.footer__about {
+  margin-bottom: 30px;
+
+  ul {
+    li {
+      font-size: 16px;
+      color: #fff;
+      line-height: 36px;
+      list-style: none;
+    }
+  }
+}
+
+.footer__about__logo {
+  margin-bottom: 15px;
+
+  a {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+.footer__widget {
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  h6 {
+    // color: $normal-color;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    float: left;
+
+    li {
+      list-style: none;
+
+      a {
+        // color: $normal-color;
+        font-size: 14px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  form {
+    position: relative;
+    margin-bottom: 30px;
+
+    input {
+      width: 100%;
+      font-size: 16px;
+      padding-left: 20px;
+      color: $normal-color;
+      height: 46px;
+      border: 1px solid #ededed;
+      border-radius: 20px;
+
+      &::placeholder {
+        color: $normal-color;
+      }
+    }
+
+    button {
+      position: absolute;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    border-radius: 50%;
+    background: #bfdc46;
+    color: #fff;
+    top: 50%;
+    right: 0.3125rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    border: none;
+    }
+  }
+
+  .footer__widget__social {
+    a {
+      display: inline-block;
+      height: 41px;
+      width: 41px;
+      font-size: 16px;
+      color: #404040;
+      border: 1px solid #ededed;
+      border-radius: 50%;
+      line-height: 38px;
+      text-align: center;
+      background: $white-color;
+      @include transition(all, 0.3s);
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background: $primary-color;
+        color: $white-color;
+        border-color: $white-color;
+      }
+    }
+  }
+}
+.section-coppy{
+  background: #094029;
+  color: #fff;
+  p{
+    color: #fff;
+  }
+}
+.footer__copyright {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.footer__copyright__text {
+  font-size: 14px;
+  color: $normal-color;
+  line-height: 25px;
+}
+
+.footer__copyright__payment {
+  float: right;
+}
+.footer__widget__social i{
+  color: #bfdc46;
+}
+.footer__widget i:hover{
+  color: #fff;
+  transition: all 0.3s;
+}

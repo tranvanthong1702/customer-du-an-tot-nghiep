@@ -1,0 +1,71 @@
+.container-thankyou{
+  margin: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  .logo{
+    color: #49b14d;
+  }
+  .thankyou{
+    display: flex;
+    margin: 30px;
+    .text-thankyou{
+      margin-top: 20px;
+      margin-left: 15px;
+    }
+  }
+  .information{
+    margin-left: 30px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px #5656561a;
+  }
+  .bill{
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #e1e1e1;
+    margin-right: 10px;
+    .header{
+      display: inline-flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      .item{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+    }
+    .product{
+      margin-left: 20px;
+
+      .img{
+        display: inline-flex;
+        .name{
+          margin: 10px;
+        }
+      }
+      .price{
+        margin: 10px;
+
+      }
+      .provisional{
+        display: inline-flex;
+        .pr_provisional{
+          margin-left: 180px;
+        }
+      }
+      .total{
+        display: inline-flex;
+        .pr_total{
+          margin-left: 150px;
+          font-size: 30px;
+          color: #4ca3eb;
+        }
+      }
+    }
+
+  }
+}

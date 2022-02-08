@@ -1,0 +1,104 @@
+.mv--signup{
+  height: 100vh;
+  background: rgb(41,185,152);
+  background: linear-gradient(90deg, rgba(41,185,152,1) 0%, rgba(29,164,150,1) 50%, rgba(22,148,147,1) 100%);
+  .container-fluid{
+    height:100vh;
+    margin: auto;
+    display: flex;
+    .content--signup{
+      border-radius: 1.2rem;
+      margin: auto;
+      height: 80%;
+      width: 80%;
+      background-color: #fff;
+      overflow: hidden;
+      .bg--img{
+        padding: 0;
+        overflow: hidden;
+        img{
+          overflow: hidden;
+          width: auto;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .bg--form{
+        max-height: 100%;
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+          -webkit-appearance: none;
+        }
+
+        &::-webkit-scrollbar:vertical {
+          width: 5px;
+        }
+        &::-webkit-scrollbar-thumb:vertical {
+          background-color: darken(#cccccc, 15);
+        }
+        padding: 0;
+        form{
+          padding: 3rem;
+          div{
+            a{
+              color:#199899 ;
+              font-size: 1.5rem;
+              &:hover{
+                opacity: 90%;
+              }
+            }
+          }
+          .title{
+            margin-bottom: 20px;
+            text-align: center;
+            span{
+              text-transform: uppercase;
+              font-size: 1.4rem;
+              color: #199899;
+            }
+          }
+          .list--input{
+            padding: 1rem 2rem;
+            .input-group{
+              margin-bottom: 10px;
+              align-content: center;
+              align-items: center;
+              label{
+                font-weight: 500;
+              }
+              input{
+                background-color: #F3F3F3;
+                padding:10px;
+                outline: none;
+                border: none;
+              }
+            }
+            .btn-group{
+              display: flex;
+              justify-content: center;
+              button{
+                margin-top: 1rem;
+                background-color: #0DA1A1;
+                border: none;
+                text-transform: uppercase;
+                padding: 0.5rem 0.9rem;
+                margin-right:1rem;
+                font-size: 0.9rem;
+                color: white;
+                &:hover{
+                  opacity: 90%;
+                }
+                border-radius: 9px;
+              }
+              a{
+                font-size: 0.9rem;
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

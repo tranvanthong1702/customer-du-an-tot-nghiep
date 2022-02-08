@@ -1,0 +1,237 @@
+.profile {
+  // background-color: #F5F5F5;
+  padding: 0;
+  margin-bottom: 30px;
+  border-radius: 1%;
+}
+
+.navbar-profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  .title {
+    display: flex;
+
+    .title-image {
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      margin-right: 15px;
+    }
+
+    .title-text {
+      margin-top: 10px;
+      text-align: center;
+
+      span {
+        color: black;
+      }
+
+      div {
+        text-align: left;
+
+        a {
+          color: #ccc;
+        }
+      }
+    }
+  }
+
+  nav {
+    margin-top: 15px;
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 5px 0;
+        &:hover{
+          background-color: #abe94d;
+        }
+        a {
+          padding: 0 10px;
+          font-size: 1rem;
+          color: black;
+
+          i {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.edit-profile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+  .title-edit {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  form {
+    margin-top: 20px;
+
+    .row {
+      margin-bottom: 10px;
+
+      input {
+        border: 1px solid #ccc;
+        padding: 5px 15px;
+        // width: 75%;
+      }
+    }
+
+    .btn-success {
+      border: none;
+      padding: 8px 18px;
+      background-color: #094029;
+      border-radius: 2px;
+      width: 50%;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.order-profile {
+  .nav-order {
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+
+    i {
+      color: orangered;
+    }
+  }
+
+  .form-search {
+    margin: 10px 0;
+
+    input {
+      border: none;
+      background-color: #ccc;
+      border-radius: 0 2px 2px 0;
+      //border: 1px solid orangered;
+      width: 90%;
+      padding: 7px 15px;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      background-color: #ccc;
+      border-radius: 2px 0 0 2px;
+      padding: 7px 15px;
+      width: 10%;
+    }
+  }
+
+  .order {
+    background-color: #fff;
+    // border-radius: 0 0 10px 10px;
+    // padding: 20px;
+
+    .order-details {
+      .status-order {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+
+        i {
+          color: orangered;
+          text-transform: uppercase;
+          font-size: 12px;
+        }
+      }
+
+      .content {
+        // padding: 10px 0;
+
+        .row {
+          padding: 0;
+        }
+
+        .product {
+          padding: 10px 0;
+          border-bottom: 1px solid #ccc;
+
+          img {
+            // width: 70%;
+            object-fit: cover;
+          }
+
+          .product-name {
+            // margin: auto 0;
+          }
+
+          .product-price {
+            margin: auto 0;
+
+            span {
+              margin: 0 10px;
+              color: orangered;
+              font-size: 1.1rem;
+            }
+          }
+        }
+      }
+      .total{
+        padding-bottom: 10px;
+        // display: flex;
+        // justify-content: end;
+        span{
+          &:not(:first-child){
+            font-weight: 700;
+            margin-left: 10px;
+            color: orangered;
+          }
+        }
+      }
+      .btn-order{
+        button{
+          outline: none;
+          color: white;
+          border: none;
+          background: orangered;
+          padding: 10px 15px;
+          &:not(:first-child){
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.text-profile {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b4b4b;
+}
+.default-image img{
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.title-pro{
+  font-size: 18px;
+  font-weight: 600;
+}
+.detail{
+  background: #007544;
+  padding: 15px 0;
+  color: #fff;
+  margin: 0;
+}
